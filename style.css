@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #070e16;
+}
+
+.header p{
+    color: #fff;
+}
+
+.header2 p {
+    color: #fff;
+}
+nav{
+    background-color: #070e16;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;  /* Ajuste para a largura desejada */
+    margin: 0 auto;  /* Centraliza o menu na página */
+}
+
+.logo a img {
+    width: 150px;  /* Ajuste para o tamanho desejado */
+    height: auto;  /* Mantém a proporção da imagem */
+
+}
+nav .logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;  
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.site-footer {
+    background-color: #070e16;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    margin-left: 7px;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size:  15px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    background-color: #ffffff;
+    color: #070e16;
+}
+
+.texto {
+    color: #ffffff;
+
+}
+.banner {
+    background-image: url(images/png-transparent-green-lamborghini.jpg);
+}
+
+.header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.geralcarro {
+    margin-top: 100px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carro1, .carro2, .carro3, .carro4 {
+    margin: 10px;
+    text-align: center;
+}
+
+.carro1 img, .carro2 img, .carro3 img, .carro4 img {
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carro5, .carro6, .carro7, .carro8 {
+    margin: 10px;
+    text-align: center;
+}
+
+.carro5 img, .carro6 img, .carro7 img, .carro8 img {
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.banner {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    height: 300px; /* ajuste conforme necessário */
+    color: #fff; /* cor do texto */
+    padding: 20px;
+}
+
+
+.titulo{
+    color: #fff;
+    font-size: 30px;
+}
+
+.subtitulo{
+    font-size: 20px;
+}
+
+.texto {
+    flex: 1;
+    padding-left: 70px;
+    color: #fff;
+}
+
+.imagemlambo {
+    width: 700px;
+    height: 400px;
+    align-self: center;
+    padding-right: 20px;
+}
+
+.textosecundario {
+color: #fff;
+text-align: center;
+padding: 30px;
+
+}
+.texto {
+    width: 50%; /* ocupa metade do banner */
+}
+
+.titulo, .subtitulo {
+    margin: 0;
+}
+
+.botao {
+    margin-top: 20px;
+    
+}
+
+.botao button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff0000; /* cor do botão */
+    color: #fff; /* cor do texto do botão */
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.corsao img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width:50%;
+   border-radius: 10px;
+   color:#ffffff ;
+
+
+}
+
+.textodasinformaçõescorsa {
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #070e16;
+    border-radius: 40px;
+    box-shadow: 0 10px 5px rgb(255, 255, 255);
+    color: #fff;
+}
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.golquadrado img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    border-radius: 10px;
+ 
+ 
+ }
+
+ .chevette img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    border-radius: 10px;
+ 
+ 
+ }
+
+ .textodasinformaçõesgol {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #070e16;
+    border-radius: 40px;
+    box-shadow: 0 10px 5px rgb(255, 255, 255);
+    color: #fff;
+}
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.textodasinformacoeschevette {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #070e16;
+    border-radius: 40px;
+    box-shadow: 0 10px 5px rgb(255, 255, 255);
+    color: #fff;
+}
+
+.cortextopchevette {
+    color: #fff;
+
+}
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+li {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.textodasinformacoesbrasilia {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #070e16;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white; /* Adicionado para tornar o texto branco */
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.contact-form {
+    margin-top: 2em;
+    color: white;
+}
+.corbotaocontato {
+    color: #fff;
+}
+.contact-form input, .contact-form textarea {
+    color: white;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.contact-form button {
+    padding: 1em 2em;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff0000; /* cor do botão */
+    color: #fff; /* cor do texto do botão */
+    cursor: pointer;
+    border-radius: 10px;
+}
+.company-info {
+    margin-top: 2em;
+}
+
+
+.central {
+    
+    align-items: center;
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #070e16;
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    color: #fff;
+}
+.preco {
+    color: #fff;
+}
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+li {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.brasilia img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    border-radius: 10px;
+ 
+ 
+ }
+
+ .textopcorsa{
+    color: #fff;
+    text-align: center;
+ }
+
+ .textopgol {
+    color: #fff;
+    text-align: center;
+ }
+
+ .textopchevette {
+    color: #fff;
+    text-align: center;
+ }
+
+ .textopbrasilia {
+    color: #fff;
+    text-align: center;
+ }
+
+ .textosbrasilia{
+    color: #fff;
+ }
+
